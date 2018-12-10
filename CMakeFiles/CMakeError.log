@@ -1,0 +1,94 @@
+Performing C SOURCE FILE Test HAVE_XINPUT_GAMEPAD_EX failed with the following output:
+Change Dir: E:/Cplus_projects/MyCube/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_dcb3c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine ўҐабЁЁ 14.0.25420.1
+(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+
+‘Ў®аЄ  ­ з в  10.12.2018 11:15:24.
+Џа®ҐЄв "E:\Cplus_projects\MyCube\CMakeFiles\CMakeTmp\cmTC_dcb3c.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+PrepareForBuild:
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_dcb3c.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "E:\Cplus_projects\MyCube\CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_dcb3c.dir\Debug\cmTC_dcb3c.tlog\".
+InitializeBuildStatus:
+  ‘®§¤ ­ЁҐ "cmTC_dcb3c.dir\Debug\cmTC_dcb3c.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+ClCompile:
+  E:\VS_15\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_XINPUT_GAMEPAD_EX /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dcb3c.dir\Debug\\" /Fd"cmTC_dcb3c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue E:\Cplus_projects\MyCube\CMakeFiles\CMakeTmp\src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_XINPUT_GAMEPAD_EX /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dcb3c.dir\Debug\\" /Fd"cmTC_dcb3c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue E:\Cplus_projects\MyCube\CMakeFiles\CMakeTmp\src.c
+  
+  src.c
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(147): fatal error C1189: #error:  "No Target Architecture" [E:\Cplus_projects\MyCube\CMakeFiles\CMakeTmp\cmTC_dcb3c.vcxproj]
+‘Ў®аЄ  Їа®ҐЄв  "E:\Cplus_projects\MyCube\CMakeFiles\CMakeTmp\cmTC_dcb3c.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+
+ЋиЁЎЄ  бЎ®аЄЁ.
+
+"E:\Cplus_projects\MyCube\CMakeFiles\CMakeTmp\cmTC_dcb3c.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (1) ->
+(–Ґ«Ґў®© ®ЎкҐЄв ClCompile) -> 
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(147): fatal error C1189: #error:  "No Target Architecture" [E:\Cplus_projects\MyCube\CMakeFiles\CMakeTmp\cmTC_dcb3c.vcxproj]
+
+    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+    ЋиЁЎ®Є: 1
+
+‡ ва зҐ­­®Ґ ўаҐ¬п: 00:00:00.50
+
+Source file was:
+
+#include <xinput.h>
+
+int main()
+{
+   (void)sizeof(((XINPUT_GAMEPAD_EX *)0)->wButtons);
+   return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_XINPUT_STATE_EX failed with the following output:
+Change Dir: E:/Cplus_projects/MyCube/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_4d407.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine ўҐабЁЁ 14.0.25420.1
+(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+
+‘Ў®аЄ  ­ з в  10.12.2018 11:15:25.
+Џа®ҐЄв "E:\Cplus_projects\MyCube\CMakeFiles\CMakeTmp\cmTC_4d407.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+PrepareForBuild:
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_4d407.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "E:\Cplus_projects\MyCube\CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_4d407.dir\Debug\cmTC_4d407.tlog\".
+InitializeBuildStatus:
+  ‘®§¤ ­ЁҐ "cmTC_4d407.dir\Debug\cmTC_4d407.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+ClCompile:
+  E:\VS_15\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_XINPUT_STATE_EX /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4d407.dir\Debug\\" /Fd"cmTC_4d407.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue E:\Cplus_projects\MyCube\CMakeFiles\CMakeTmp\src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_XINPUT_STATE_EX /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4d407.dir\Debug\\" /Fd"cmTC_4d407.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue E:\Cplus_projects\MyCube\CMakeFiles\CMakeTmp\src.c
+  
+  src.c
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(147): fatal error C1189: #error:  "No Target Architecture" [E:\Cplus_projects\MyCube\CMakeFiles\CMakeTmp\cmTC_4d407.vcxproj]
+‘Ў®аЄ  Їа®ҐЄв  "E:\Cplus_projects\MyCube\CMakeFiles\CMakeTmp\cmTC_4d407.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо) б ®иЁЎЄ®©.
+
+ЋиЁЎЄ  бЎ®аЄЁ.
+
+"E:\Cplus_projects\MyCube\CMakeFiles\CMakeTmp\cmTC_4d407.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (1) ->
+(–Ґ«Ґў®© ®ЎкҐЄв ClCompile) -> 
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(147): fatal error C1189: #error:  "No Target Architecture" [E:\Cplus_projects\MyCube\CMakeFiles\CMakeTmp\cmTC_4d407.vcxproj]
+
+    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+    ЋиЁЎ®Є: 1
+
+‡ ва зҐ­­®Ґ ўаҐ¬п: 00:00:00.42
+
+Source file was:
+
+#include <xinput.h>
+
+int main()
+{
+   (void)sizeof(((XINPUT_STATE_EX *)0)->dwPacketNumber);
+   return 0;
+}
+

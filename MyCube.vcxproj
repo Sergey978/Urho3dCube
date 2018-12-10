@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6FBB1793-F526-3AD1-B4ED-4FF518C1BEDF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>MyCube</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Cplus_projects\MyCube\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MyCube.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MyCube</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Cplus_projects\MyCube\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">MyCube.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">MyCube</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Cplus_projects\MyCube\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MyCube.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MyCube_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Cplus_projects\Urho3D-master-build\include;E:\Cplus_projects\Urho3D-master-build\include\Urho3D\ThirdParty;E:\Cplus_projects\Urho3D-master-build\include\Urho3D\ThirdParty\Bullet;E:\Cplus_projects\Urho3D-master-build\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SECURE_SCL=0;URHO3D_ANGELSCRIPT;URHO3D_IK;URHO3D_LOGGING;URHO3D_LUA;URHO3D_MINIDUMPS;URHO3D_NAVIGATION;URHO3D_NETWORK;URHO3D_PHYSICS;URHO3D_PROFILING;URHO3D_THREADING;URHO3D_URHO2D;URHO3D_WEBP;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SECURE_SCL=0;URHO3D_ANGELSCRIPT;URHO3D_IK;URHO3D_LOGGING;URHO3D_LUA;URHO3D_MINIDUMPS;URHO3D_NAVIGATION;URHO3D_NETWORK;URHO3D_PHYSICS;URHO3D_PROFILING;URHO3D_THREADING;URHO3D_URHO2D;URHO3D_WEBP;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Cplus_projects\Urho3D-master-build\include;E:\Cplus_projects\Urho3D-master-build\include\Urho3D\ThirdParty;E:\Cplus_projects\Urho3D-master-build\include\Urho3D\ThirdParty\Bullet;E:\Cplus_projects\Urho3D-master-build\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Cplus_projects\Urho3D-master-build\include;E:\Cplus_projects\Urho3D-master-build\include\Urho3D\ThirdParty;E:\Cplus_projects\Urho3D-master-build\include\Urho3D\ThirdParty\Bullet;E:\Cplus_projects\Urho3D-master-build\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>E:\Cplus_projects\Urho3D-master-build\lib\Urho3D_d.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;ws2_32.lib;iphlpapi.lib;winmm.lib;dbghelp.lib;opengl32.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;ws2_32.lib;iphlpapi.lib;dbghelp.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Cplus_projects/MyCube/Release/MyCube.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>E:/Cplus_projects/MyCube/bin/MyCube.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Cplus_projects\Urho3D-master-build\include;E:\Cplus_projects\Urho3D-master-build\include\Urho3D\ThirdParty;E:\Cplus_projects\Urho3D-master-build\include\Urho3D\ThirdParty\Bullet;E:\Cplus_projects\Urho3D-master-build\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SECURE_SCL=0;URHO3D_ANGELSCRIPT;URHO3D_IK;URHO3D_LOGGING;URHO3D_LUA;URHO3D_MINIDUMPS;URHO3D_NAVIGATION;URHO3D_NETWORK;URHO3D_PHYSICS;URHO3D_PROFILING;URHO3D_THREADING;URHO3D_URHO2D;URHO3D_WEBP;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SECURE_SCL=0;URHO3D_ANGELSCRIPT;URHO3D_IK;URHO3D_LOGGING;URHO3D_LUA;URHO3D_MINIDUMPS;URHO3D_NAVIGATION;URHO3D_NETWORK;URHO3D_PHYSICS;URHO3D_PROFILING;URHO3D_THREADING;URHO3D_URHO2D;URHO3D_WEBP;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Cplus_projects\Urho3D-master-build\include;E:\Cplus_projects\Urho3D-master-build\include\Urho3D\ThirdParty;E:\Cplus_projects\Urho3D-master-build\include\Urho3D\ThirdParty\Bullet;E:\Cplus_projects\Urho3D-master-build\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Cplus_projects\Urho3D-master-build\include;E:\Cplus_projects\Urho3D-master-build\include\Urho3D\ThirdParty;E:\Cplus_projects\Urho3D-master-build\include\Urho3D\ThirdParty\Bullet;E:\Cplus_projects\Urho3D-master-build\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>E:\Cplus_projects\Urho3D-master-build\lib\Urho3D_d.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;ws2_32.lib;iphlpapi.lib;winmm.lib;dbghelp.lib;opengl32.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;ws2_32.lib;iphlpapi.lib;dbghelp.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Cplus_projects/MyCube/RelWithDebInfo/MyCube.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>E:/Cplus_projects/MyCube/bin/MyCube.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Cplus_projects\Urho3D-master-build\include;E:\Cplus_projects\Urho3D-master-build\include\Urho3D\ThirdParty;E:\Cplus_projects\Urho3D-master-build\include\Urho3D\ThirdParty\Bullet;E:\Cplus_projects\Urho3D-master-build\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;URHO3D_ANGELSCRIPT;URHO3D_IK;URHO3D_LOGGING;URHO3D_LUA;URHO3D_MINIDUMPS;URHO3D_NAVIGATION;URHO3D_NETWORK;URHO3D_PHYSICS;URHO3D_PROFILING;URHO3D_THREADING;URHO3D_URHO2D;URHO3D_WEBP;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;URHO3D_ANGELSCRIPT;URHO3D_IK;URHO3D_LOGGING;URHO3D_LUA;URHO3D_MINIDUMPS;URHO3D_NAVIGATION;URHO3D_NETWORK;URHO3D_PHYSICS;URHO3D_PROFILING;URHO3D_THREADING;URHO3D_URHO2D;URHO3D_WEBP;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Cplus_projects\Urho3D-master-build\include;E:\Cplus_projects\Urho3D-master-build\include\Urho3D\ThirdParty;E:\Cplus_projects\Urho3D-master-build\include\Urho3D\ThirdParty\Bullet;E:\Cplus_projects\Urho3D-master-build\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Cplus_projects\Urho3D-master-build\include;E:\Cplus_projects\Urho3D-master-build\include\Urho3D\ThirdParty;E:\Cplus_projects\Urho3D-master-build\include\Urho3D\ThirdParty\Bullet;E:\Cplus_projects\Urho3D-master-build\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>E:\Cplus_projects\Urho3D-master-build\lib\Urho3D_d.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;ws2_32.lib;iphlpapi.lib;winmm.lib;dbghelp.lib;opengl32.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;ws2_32.lib;iphlpapi.lib;dbghelp.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Cplus_projects/MyCube/Debug/MyCube_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Cplus_projects/MyCube/bin/MyCube_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Cplus_projects\MyCube\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Cplus_projects/MyCube/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\cmake-3.12.3-win64\bin\cmake.exe -HE:/Cplus_projects/MyCube -BE:/Cplus_projects/MyCube --check-stamp-file E:/Cplus_projects/MyCube/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/Cplus_projects/MyCube/CMakeLists.txt;E:\Cplus_projects\MyCube\CMake\Modules\CheckCompilerToolchain.cmake;E:\Cplus_projects\MyCube\CMake\Modules\CheckHost.cmake;E:\Cplus_projects\MyCube\CMake\Modules\CheckUrhoLibrary.cpp;E:\Cplus_projects\MyCube\CMake\Modules\FindDirectX.cmake;E:\Cplus_projects\MyCube\CMake\Modules\FindUrho3D.cmake;E:\Cplus_projects\MyCube\CMake\Modules\GenerateExportHeader.cmake;E:\Cplus_projects\MyCube\CMake\Modules\UrhoCommon.cmake;E:\Cplus_projects\MyCube\CMakeFiles\3.12.3\CMakeCCompiler.cmake;E:\Cplus_projects\MyCube\CMakeFiles\3.12.3\CMakeCXXCompiler.cmake;E:\Cplus_projects\MyCube\CMakeFiles\3.12.3\CMakeRCCompiler.cmake;E:\Cplus_projects\MyCube\CMakeFiles\3.12.3\CMakeSystem.cmake;E:\Cplus_projects\MyCube\CMakeFiles\CheckIncludeFiles\HAVE_XINPUT_H.c;E:\Cplus_projects\MyCube\CMakeLists.txt;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeCInformation.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeConfigurableFile.in;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeDependentOption.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeParseArguments.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeRCInformation.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CheckCSourceCompiles.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CheckCXXCompilerFlag.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CheckCXXSourceCompiles.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CheckIncludeFile.cxx.in;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CheckIncludeFiles.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CheckStructHasMember.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\FindPackageMessage.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\Platform\Windows.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;E:\Cplus_projects\MyCube\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Cplus_projects\MyCube\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Cplus_projects/MyCube/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+E:\cmake-3.12.3-win64\bin\cmake.exe -HE:/Cplus_projects/MyCube -BE:/Cplus_projects/MyCube --check-stamp-file E:/Cplus_projects/MyCube/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/Cplus_projects/MyCube/CMakeLists.txt;E:\Cplus_projects\MyCube\CMake\Modules\CheckCompilerToolchain.cmake;E:\Cplus_projects\MyCube\CMake\Modules\CheckHost.cmake;E:\Cplus_projects\MyCube\CMake\Modules\CheckUrhoLibrary.cpp;E:\Cplus_projects\MyCube\CMake\Modules\FindDirectX.cmake;E:\Cplus_projects\MyCube\CMake\Modules\FindUrho3D.cmake;E:\Cplus_projects\MyCube\CMake\Modules\GenerateExportHeader.cmake;E:\Cplus_projects\MyCube\CMake\Modules\UrhoCommon.cmake;E:\Cplus_projects\MyCube\CMakeFiles\3.12.3\CMakeCCompiler.cmake;E:\Cplus_projects\MyCube\CMakeFiles\3.12.3\CMakeCXXCompiler.cmake;E:\Cplus_projects\MyCube\CMakeFiles\3.12.3\CMakeRCCompiler.cmake;E:\Cplus_projects\MyCube\CMakeFiles\3.12.3\CMakeSystem.cmake;E:\Cplus_projects\MyCube\CMakeFiles\CheckIncludeFiles\HAVE_XINPUT_H.c;E:\Cplus_projects\MyCube\CMakeLists.txt;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeCInformation.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeConfigurableFile.in;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeDependentOption.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeParseArguments.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeRCInformation.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CheckCSourceCompiles.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CheckCXXCompilerFlag.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CheckCXXSourceCompiles.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CheckIncludeFile.cxx.in;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CheckIncludeFiles.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CheckStructHasMember.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\FindPackageMessage.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\Platform\Windows.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;E:\Cplus_projects\MyCube\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Cplus_projects\MyCube\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Cplus_projects/MyCube/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\cmake-3.12.3-win64\bin\cmake.exe -HE:/Cplus_projects/MyCube -BE:/Cplus_projects/MyCube --check-stamp-file E:/Cplus_projects/MyCube/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/Cplus_projects/MyCube/CMakeLists.txt;E:\Cplus_projects\MyCube\CMake\Modules\CheckCompilerToolchain.cmake;E:\Cplus_projects\MyCube\CMake\Modules\CheckHost.cmake;E:\Cplus_projects\MyCube\CMake\Modules\CheckUrhoLibrary.cpp;E:\Cplus_projects\MyCube\CMake\Modules\FindDirectX.cmake;E:\Cplus_projects\MyCube\CMake\Modules\FindUrho3D.cmake;E:\Cplus_projects\MyCube\CMake\Modules\GenerateExportHeader.cmake;E:\Cplus_projects\MyCube\CMake\Modules\UrhoCommon.cmake;E:\Cplus_projects\MyCube\CMakeFiles\3.12.3\CMakeCCompiler.cmake;E:\Cplus_projects\MyCube\CMakeFiles\3.12.3\CMakeCXXCompiler.cmake;E:\Cplus_projects\MyCube\CMakeFiles\3.12.3\CMakeRCCompiler.cmake;E:\Cplus_projects\MyCube\CMakeFiles\3.12.3\CMakeSystem.cmake;E:\Cplus_projects\MyCube\CMakeFiles\CheckIncludeFiles\HAVE_XINPUT_H.c;E:\Cplus_projects\MyCube\CMakeLists.txt;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeCInformation.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeConfigurableFile.in;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeDependentOption.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeParseArguments.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeRCInformation.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CheckCSourceCompiles.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CheckCXXCompilerFlag.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CheckCXXSourceCompiles.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CheckIncludeFile.cxx.in;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CheckIncludeFiles.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\CheckStructHasMember.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\FindPackageMessage.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\Platform\Windows.cmake;E:\cmake-3.12.3-win64\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;E:\Cplus_projects\MyCube\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Cplus_projects\MyCube\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\Cplus_projects\MyCube\Main.cpp" />
+    <None Include="E:\Cplus_projects\MyCube\bin\CoreData" />
+    <None Include="E:\Cplus_projects\MyCube\bin\Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Cplus_projects\MyCube\ZERO_CHECK.vcxproj">
+      <Project>{AA7D977B-86CE-3737-B100-6F7B17BFB92C}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

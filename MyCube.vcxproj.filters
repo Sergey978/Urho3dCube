@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Cplus_projects\MyCube\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Cplus_projects\MyCube\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\Cplus_projects\MyCube\bin\CoreData">
+      <Filter>Resource Dirs</Filter>
+    </None>
+    <None Include="E:\Cplus_projects\MyCube\bin\Data">
+      <Filter>Resource Dirs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resource Dirs">
+      <UniqueIdentifier>{34BB2B59-2408-3EB8-90B3-CE198F566B0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{13A87158-2B96-3334-AAF6-206DDEFC3364}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
